@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #DB7F67;
+	font-family: "Arial";
+}
+
+button {
+	background-color: #DBBEA1;
+	color: #DB7F67;	
+	font-size: 120%;
+	border: none;
+	padding: 0.6%;
+}
+
+button:active {
+	background-color: #C1A88F;
+	color: #C1715D;	
+}
+
+.bigDiv {
+	height: 100vh;
+}
+
+.mainPanel {
+	background-color: #DB7F67;
+	padding: 2%;
+	height: 15%;
+}
+
+.gamePanel {
+	padding: 2%;
+	background-color: #323232;
+	height: 43%;
+}
+
+.bottomPanel {
+	padding: 2%;
+	background-color: #DB7F67;
+	height: 45%;
+}
+
+.gameTitle {
+	font-size: 300%;
+	color: #DBBEA1;	
+}
+
+p {
+	font-size: 120%;
+	color: #E2E2E2;
+}

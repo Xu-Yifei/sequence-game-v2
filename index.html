@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sequence Game</title>
+        <script src="sketch.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="bigDiv">
+            <div class="mainPanel">
+                <p class="gameTitle"><b>sequence game v2</b></p>
+                <button onclick="drawSequence()">generate</button> 
+                <button onclick="reset()">reset</button> 
+            </div>
+            
+            <div class="gamePanel" id="gameDiv"></div>
+            
+            <div class="mainPanel">
+                <p>Score:</p>
+                <p id="score">0</p>
+            </div>
+        </div>
+    </body>
+</html> 
